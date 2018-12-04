@@ -1,5 +1,5 @@
 /**
- * @fileoverview Prevent using this in asyncData
+ * @fileoverview Prevent using this in fetch
  * @author Clark Du
  */
 "use strict";
@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/no-this-in-async-data"),
+var rule = require("../../../lib/rules/no-this-in-fetch"),
 
     RuleTester = require("eslint").RuleTester;
 
@@ -18,7 +18,7 @@ var rule = require("../../../lib/rules/no-this-in-async-data"),
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester();
-ruleTester.run("no-this-in-async-data", rule, {
+ruleTester.run("no-this-in-fetch", rule, {
 
     valid: [
 
@@ -27,7 +27,7 @@ ruleTester.run("no-this-in-async-data", rule, {
 
     invalid: [
         {
-            code: "this.await fetch(`/api${this.$route.path}`)",
+            code: "console.log('route path:', this.$route.path)",
             errors: [{
                 message: "Fill me in.",
                 type: "Me too"

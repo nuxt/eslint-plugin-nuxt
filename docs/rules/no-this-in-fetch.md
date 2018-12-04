@@ -1,6 +1,7 @@
-# Prevent using this in asyncData (no-this-in-async-data)
+# Prevent using this in fetch (no-this-in-fetch)
 
 Please describe the origin of the rule here.
+
 
 ## Rule Details
 
