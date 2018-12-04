@@ -12,7 +12,8 @@
   },
   "keywords": [
     "nuxt",
-    "eslint"
+    "eslint",
+    "eslintplugin"
   ],
   "author": "Clark Du <clarkdo@gmail.com>",
   "license": "MIT",
