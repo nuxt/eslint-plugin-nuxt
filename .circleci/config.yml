@@ -42,7 +42,7 @@ jobs:
 # Workflow definition
 workflows:
   version: 2
-  test:
+  node-build-workflows:
     jobs:
       - node-lts
       - node-current
