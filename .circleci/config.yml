@@ -11,16 +11,16 @@ defaults: &defaults
     # Download and cache dependencies
     - restore_cache:
         keys:
-        - {{ .Environment.CIRCLE_JOB }}-dependencies-{{ checksum "yarn.lock" }}
+        - v1-{{ .Environment.CIRCLE_JOB }}-dependencies-{{ checksum "yarn.lock" }}
         # fallback to using the latest cache if no exact match is found
-        - {{ .Environment.CIRCLE_JOB }}-dependencies-
+        - v1-{{ .Environment.CIRCLE_JOB }}-dependencies-
 
     - run: yarn install
 
     - save_cache:
         paths:
           - node_modules
-        key: {{ .Environment.CIRCLE_JOB }}-dependencies-{{ checksum "yarn.lock" }}
+        key: v1-{{ .Environment.CIRCLE_JOB }}-dependencies-{{ checksum "yarn.lock" }}
 
     # run lint!
     - run: yarn lint
