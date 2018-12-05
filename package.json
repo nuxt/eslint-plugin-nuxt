@@ -19,7 +19,7 @@
     "eslintplugin"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "jest --silent",
     "lint": "eslint ./"
   },
   "husky": {
