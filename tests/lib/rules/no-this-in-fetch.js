@@ -2,36 +2,35 @@
  * @fileoverview Prevent using this in fetch
  * @author Clark Du
  */
-"use strict";
+'use strict'
 
-//------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
 // Requirements
-//------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/no-this-in-fetch"),
+var rule = require('../../../lib/rules/no-this-in-fetch')
 
-    RuleTester = require("eslint").RuleTester;
+var RuleTester = require('eslint').RuleTester
 
-
-//------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
 // Tests
-//------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------
 
-var ruleTester = new RuleTester();
-ruleTester.run("no-this-in-fetch", rule, {
+var ruleTester = new RuleTester()
+ruleTester.run('no-this-in-fetch', rule, {
 
-    valid: [
+  valid: [
 
-        // give me some code that won't trigger a warning
-    ],
+    // give me some code that won't trigger a warning
+  ],
 
-    invalid: [
-        {
-            code: "console.log('route path:', this.$route.path)",
-            errors: [{
-                message: "Fill me in.",
-                type: "Me too"
-            }]
-        }
-    ]
-});
+  invalid: [
+    {
+      code: "console.log('route path:', this.$route.path)",
+      errors: [{
+        message: 'Fill me in.',
+        type: 'Me too'
+      }]
+    }
+  ]
+})
