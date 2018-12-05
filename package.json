@@ -44,6 +44,7 @@
     "lint-staged": "^8.1.0"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^5.0.0"
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-eslint-parser": "^4.0.2"
   }
 }
