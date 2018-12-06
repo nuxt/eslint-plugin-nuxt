@@ -1,17 +1,25 @@
-# Prevent using this in fetch (no-this-in-fetch)
+# nuxt/no-this-in-fetch
 
-Please describe the origin of the rule here.
+> disallow `this` in fetch
 
+- :gear: This rule is included in `"plugin:nuxt/base"`.
 
 ## Rule Details
 
-This rule aims to...
+This rule is for preventing using `this` in fetch
 
 Examples of **incorrect** code for this rule:
 
 ```js
 
-// fill me in
+export default {
+  ...foo,
+  async fetch() {
+    if(this.$route.path === 'foo') {
+
+    }
+  }
+}
 
 ```
 
@@ -19,18 +27,16 @@ Examples of **correct** code for this rule:
 
 ```js
 
-// fill me in
+export default {
+  ...foo,
+  async fetch() {
+    // no this
+  }
+}
 
 ```
 
-### Options
+## :mag: Implementation
 
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+- [Rule source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/no-this-in-fetch.js)
+- [Test source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/__test__/no-this-in-fetch.test.js)
