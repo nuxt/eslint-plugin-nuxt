@@ -2,7 +2,7 @@
 
 > disallow `window/document` in `created/beforeCreate`
 
-- :gear: This rule is included in `"plugin:nuxt/ssr"`.
+- :gear: This rule is included in `"plugin:nuxt/base"`.
 
 ## Rule Details
 
