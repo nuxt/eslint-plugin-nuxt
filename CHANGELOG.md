@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.1"></a>
+## [0.1.1](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.1.0...v0.1.1) (2018-12-10)
+
+
+### Bug Fixes
+
+* wrong index file ([c50e96f](https://github.com/nuxt/eslint-plugin-nuxt/commit/c50e96f))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-12-10)
 
