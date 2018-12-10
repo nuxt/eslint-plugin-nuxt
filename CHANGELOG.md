@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.1.3...v0.2.0) (2018-12-10)
+
+
+### Features
+
+* add no-env-in-mounted ([0037b34](https://github.com/nuxt/eslint-plugin-nuxt/commit/0037b34))
+* move ssr to base ([8f408dd](https://github.com/nuxt/eslint-plugin-nuxt/commit/8f408dd))
+
+
+
 <a name="0.1.3"></a>
 ## [0.1.3](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.1.2...v0.1.3) (2018-12-10)
 
