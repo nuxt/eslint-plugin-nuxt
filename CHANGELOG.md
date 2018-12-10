@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.1.1...v0.1.2) (2018-12-10)
+
+
+### Bug Fixes
+
+* rule not found ([c63f657](https://github.com/nuxt/eslint-plugin-nuxt/commit/c63f657))
+* undefined value in nuxt/no-env-in-context ([17cb2d9](https://github.com/nuxt/eslint-plugin-nuxt/commit/17cb2d9))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.1.0...v0.1.1) (2018-12-10)
 
