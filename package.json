@@ -4,7 +4,7 @@
   "description": "ESLint plugin for Nuxt.js",
   "author": "Clark Du <clarkdo@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "lib/index.js",
   "homepage": "https://github.com/nuxt/eslint-plugin-nuxt#readme",
   "bugs": {
     "url": "https://github.com/nuxt/eslint-plugin-nuxt/issues"
@@ -17,6 +17,9 @@
     "nuxt",
     "eslint",
     "eslintplugin"
+  ],
+  "files": [
+    "lib"
   ],
   "scripts": {
     "test": "jest --silent",
