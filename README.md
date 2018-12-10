@@ -1,8 +1,24 @@
 # eslint-plugin-nuxt
 
-ESLint plugin for Nuxt.js
+[![Standard JS][standard-js-src]][standard-js-href]
+[![Circle CI][circle-ci-src]][circle-ci-href]
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 
-## Installation
+[standard-js-src]: https://flat.badgen.net/badge/code%20style/standard/green
+[standard-js-href]: https://standardjs.com
+[circle-ci-src]: https://flat.badgen.net/circleci/github/nuxt/eslint-plugin-nuxt
+[circle-ci-href]: https://circleci.com/gh/nuxt/eslint-plugin-nuxt
+[codecov-src]: https://flat.badgen.net/codecov/c/github/nuxt/eslint-plugin-nuxt
+[codecov-href]: https://codecov.io/gh/nuxt/eslint-plugin-nuxt
+[npm-version-src]: https://flat.badgen.net/npm/v/eslint-plugin-nuxt/latest
+[npm-version-href]: https://npmjs.com/package/eslint-plugin-nuxt
+[npm-downloads-src]: https://flat.badgen.net/npm/dt/eslint-plugin-nuxt
+[npm-downloads-href]: https://npmjs.com/package/eslint-plugin-nuxt
+
+:sparkles: ESLint plugin for Nuxt.js
+
+## :cd: Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
@@ -20,7 +36,7 @@ success Saved 1 new dependencies
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-nuxt` globally.
 
-## Usage
+## :rocket: Usage
 
 Add `nuxt` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
