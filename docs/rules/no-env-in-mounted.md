@@ -1,14 +1,6 @@
 # nuxt/no-env-in-mounted
 
-> Disallow `process.server` and `process.client` in the following lifecycle hooks
-- `beforeMount`
-- `mounted`
-- `beforeUpdate`
-- `updated`
-- `activated`
-- `deactivated`
-- `beforeDestroy`
-- `destroyed`
+> Disallow `process.server` and `process.client` in the following lifecycle hooks: `beforeMount`, `mounted`, `beforeUpdate`, `updated`, `activated`, `deactivated`, `beforeDestroy` and `destroyed`.
 
 - :gear: This rule is included in `"plugin:nuxt/base"`.
 
