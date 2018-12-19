@@ -15,7 +15,7 @@ Examples of **incorrect** code for this rule:
 export default {
   ...foo,
   async asyncData() {
-    if(this.$route.path === 'foo') {
+    if (this.$route.path === 'foo') {
 
     }
   }
