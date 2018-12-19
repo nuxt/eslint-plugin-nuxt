@@ -1,4 +1,4 @@
-# nuxt/no-env-in-mounted
+# nuxt/no-env-in-hooks
 
 > Disallow `process.server` and `process.client` in the following lifecycle hooks: `beforeMount`, `mounted`, `beforeUpdate`, `updated`, `activated`, `deactivated`, `beforeDestroy` and `destroyed`.
 
@@ -6,7 +6,7 @@
 
 ## Rule Details
 
-This rule is for preventing using `process.server/process.client` in `mounted/beforeMount` since they're only executed in client side.
+This rule is for preventing using `process.server/process.client` in client only Vue lifecycle hooks since they're only executed in client side.
 
 Examples of **incorrect** code for this rule:
 
@@ -45,5 +45,5 @@ export default {
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/no-env-in-mounted.js)
-- [Test source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/__test__/no-env-in-mounted.test.js)
+- [Rule source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/no-env-in-hooks.js)
+- [Test source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/__test__/no-env-in-hooks.test.js)
