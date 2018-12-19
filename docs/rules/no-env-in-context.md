@@ -13,13 +13,13 @@ Examples of **incorrect** code for this rule:
 ```js
 
 export default {
-  async asyncData() {
-    if(process.server) {
+  asyncData(context) {
+    if (context.isServer) {
       const foo = 'bar'
     }
   },
-  fetch() {
-    if(process.client) {
+  fetch({ isClient }) {
+    if (isClient) {
       const foo = 'bar'
     }
   }
@@ -32,13 +32,13 @@ Examples of **correct** code for this rule:
 ```js
 
 export default {
-  asyncData(context) {
-    if(context.isServer) {
+  async asyncData() {
+    if (process.server) {
       const foo = 'bar'
     }
   },
-  fetch({ isClient }) {
-    if(isClient) {
+  fetch() {
+    if (process.client) {
       const foo = 'bar'
     }
   }
