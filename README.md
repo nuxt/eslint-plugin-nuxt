@@ -80,7 +80,7 @@ This plugin provides four predefined configs:
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 |  | [nuxt/no-env-in-context](./docs/rules/no-env-in-context.md) | Disallow `context.isServer/context.isClient` in `asyncData/fetch/nuxtServerInit` |
-|  | [nuxt/no-env-in-mounted](./docs/rules/no-env-in-mounted.md) | Disallow `process.server/process.client` in `mounted/beforeMount` |
+|  | [nuxt/no-env-in-hooks](./docs/rules/no-env-in-hooks.md) | Disallow `process.server/process.client` in client only Vue lifecycle hooks like: `mounted, beforeMount, updated...` |
 |  | [nuxt/no-globals-in-created](./docs/rules/no-globals-in-created.md) | Disallow `window/document` in `created/beforeCreate` |
 |  | [nuxt/no-this-in-fetch-data](./docs/rules/no-this-in-fetch-data.md) | Disallow `this` in `asyncData/fetch` |
 
