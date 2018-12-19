@@ -1,6 +1,14 @@
 # nuxt/no-env-in-mounted
 
-> disallow `process.server/process.client` in `mounted/beforeMount`
+> Disallow `process.server` and `process.client` in the following lifecycle hooks
+- `beforeMount`
+- `mounted`
+- `beforeUpdate`
+- `updated`
+- `activated`
+- `deactivated`
+- `beforeDestroy`
+- `destroyed`
 
 - :gear: This rule is included in `"plugin:nuxt/base"`.
 
@@ -14,10 +22,14 @@ Examples of **incorrect** code for this rule:
 
 export default {
   mounted() {
-    const foo = 'bar'
+    if (process.server) {
+      const foo = 'bar'
+    }
   },
   beforeMount() {
-    const foo = 'bar'
+    if (process.client) {
+      const foo = 'bar'
+    }
   }
 }
 
@@ -25,18 +37,15 @@ export default {
 
 Examples of **correct** code for this rule:
 
+
 ```js
 
 export default {
   mounted() {
-    if(process.server) {
-      const foo = 'bar'
-    }
+    const foo = 'bar'
   },
   beforeMount() {
-    if(process.client) {
-      const foo = 'bar'
-    }
+    const foo = 'bar'
   }
 }
 
