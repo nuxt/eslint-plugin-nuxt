@@ -1,4 +1,4 @@
-workflow "Nuxt.js Actions" {
+workflow "Github Actions" {
   on = "push"
   resolves = ["Lint", "Test", "Audit"]
 }
