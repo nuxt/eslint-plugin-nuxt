@@ -50,6 +50,6 @@
   },
   "dependencies": {
     "eslint-plugin-vue": "^5.1.0",
-    "vue-eslint-parser": "^4.0.3"
+    "vue-eslint-parser": "^5.0.0"
   }
 }
