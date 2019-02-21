@@ -47,5 +47,5 @@ export default {
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/no-timing-in-fetch-data.js)
-- [Test source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/__test__/no-timing-in-fetch-data.test.js)
+- [Rule source](../../lib/rules/no-timing-in-fetch-data.js)
+- [Test source](../../lib/rules/__test__/no-timing-in-fetch-data.test.js)

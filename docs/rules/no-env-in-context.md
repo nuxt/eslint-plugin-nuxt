@@ -48,5 +48,5 @@ export default {
 
 ## :mag: Implementation
 
-- [Rule source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/no-env-in-context.js)
-- [Test source](https://github.com/nuxt/eslint-plugin-nuxt/blob/master/lib/rules/__test__/no-env-in-context.test.js)
+- [Rule source](../../lib/rules/no-env-in-context.js)
+- [Test source](../../lib/rules/__test__/no-env-in-context.test.js)
