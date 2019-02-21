@@ -40,6 +40,8 @@ success Saved 1 new dependencies
 
 Add `nuxt` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
+1. Use our preset to extend recommended defaults:
+
 ```json
 {
   "extends": [
@@ -48,10 +50,13 @@ Add `nuxt` to the plugins section of your `.eslintrc` configuration file. You ca
 }
 ```
 
-Then configure the rules you want to use under the rules section.
+2. Or specify individual rules manually:
 
 ```json
 {
+    "plugins": [
+        "nuxt"
+    ],
     "rules": {
         "nuxt/rule-name": 2
     }
