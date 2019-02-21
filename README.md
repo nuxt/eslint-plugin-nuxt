@@ -83,6 +83,7 @@ This plugin provides four predefined configs:
 |  | [nuxt/no-env-in-hooks](./docs/rules/no-env-in-hooks.md) | Disallow `process.server/process.client` in client only Vue lifecycle hooks like: `mounted, beforeMount, updated...` |
 |  | [nuxt/no-globals-in-created](./docs/rules/no-globals-in-created.md) | Disallow `window/document` in `created/beforeCreate` |
 |  | [nuxt/no-this-in-fetch-data](./docs/rules/no-this-in-fetch-data.md) | Disallow `this` in `asyncData/fetch` |
+|  | [nuxt/no-cjs-in-config](./docs/rules/no-cjs-in-config.md) | Disallow `require/modules.exports/exports` in `nuxt.config.js` |
 
 ### Recommended Rules
 
