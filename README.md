@@ -42,9 +42,9 @@ Add `nuxt` to the plugins section of your `.eslintrc` configuration file. You ca
 
 ```json
 {
-    "plugins": [
-        "nuxt"
-    ]
+  "extends": [
+    "plugin:nuxt/recommended"
+  ]
 }
 ```
 
