@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.3](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.4.0...v0.4.3) (2019-03-12)
+
+
+### Bug Fixes
+
+* incompatible version of vue-eslint-parser ([9bb12ae](https://github.com/nuxt/eslint-plugin-nuxt/commit/9bb12ae))
+* use filename instead of full path ([4c62a37](https://github.com/nuxt/eslint-plugin-nuxt/commit/4c62a37))
+
+
+
 ## [0.4.2](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.4.0...v0.4.2) (2019-02-21)
 
 
