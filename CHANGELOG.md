@@ -8,7 +8,6 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * incompatible version of vue-eslint-parser ([9bb12ae](https://github.com/nuxt/eslint-plugin-nuxt/commit/9bb12ae))
-* use filename instead of full path ([4c62a37](https://github.com/nuxt/eslint-plugin-nuxt/commit/4c62a37))
 
 
 
