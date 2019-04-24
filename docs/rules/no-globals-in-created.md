@@ -35,4 +35,4 @@ export default {
 ## :mag: Implementation
 
 - [Rule source](../../lib/rules/no-globals-in-created.js)
-- [Test source](../../lib/rules/__test__/no-globals-in-created.test.js)
+- [Test source](../../lib/rules/__tests__/no-globals-in-created.test.js)

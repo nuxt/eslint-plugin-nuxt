@@ -46,4 +46,4 @@ export default {
 ## :mag: Implementation
 
 - [Rule source](../../lib/rules/no-env-in-hooks.js)
-- [Test source](../../lib/rules/__test__/no-env-in-hooks.test.js)
+- [Test source](../../lib/rules/__tests__/no-env-in-hooks.test.js)

@@ -48,4 +48,4 @@ export default {
 ## :mag: Implementation
 
 - [Rule source](../../lib/rules/no-timing-in-fetch-data.js)
-- [Test source](../../lib/rules/__test__/no-timing-in-fetch-data.test.js)
+- [Test source](../../lib/rules/__tests__/no-timing-in-fetch-data.test.js)
