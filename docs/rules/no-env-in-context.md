@@ -49,4 +49,4 @@ export default {
 ## :mag: Implementation
 
 - [Rule source](../../lib/rules/no-env-in-context.js)
-- [Test source](../../lib/rules/__test__/no-env-in-context.test.js)
+- [Test source](../../lib/rules/__tests__/no-env-in-context.test.js)

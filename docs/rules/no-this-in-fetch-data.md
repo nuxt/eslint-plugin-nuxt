@@ -39,4 +39,4 @@ export default {
 ## :mag: Implementation
 
 - [Rule source](../../lib/rules/no-this-in-fetch-data.js)
-- [Test source](../../lib/rules/__test__/no-this-in-fetch-data.test.js)
+- [Test source](../../lib/rules/__tests__/no-this-in-fetch-data.test.js)
