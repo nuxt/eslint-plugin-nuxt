@@ -19,7 +19,8 @@
     "eslintplugin"
   ],
   "files": [
-    "lib"
+    "lib",
+    "!__tests__"
   ],
   "scripts": {
     "test": "jest --silent",
