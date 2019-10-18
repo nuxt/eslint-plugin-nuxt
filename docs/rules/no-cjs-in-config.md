@@ -6,7 +6,7 @@
 
 ## Rule Details
 
-This rule is for preventing using `require/modules.exports/exportst` in `nuxt.config.js`
+This rule is for preventing using `require/modules.exports/exports` in `nuxt.config.js`
 
 Examples of **incorrect** code for this rule:
 
