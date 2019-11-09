@@ -1,9 +1,5 @@
-name: Github ActionCI
-on:
-  pull_request
-  push:
-    branches:
-      - master
+name: Github Action CI
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
