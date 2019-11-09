@@ -103,3 +103,4 @@ Include all the below rules, as well as all priority rules in above categories, 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 | :wrench: | [nuxt/no-timing-in-fetch-data](./docs/rules/no-timing-in-fetch-data.md) | Disallow `setTimeout/setInterval` in `asyncData/fetch` |
+| :wrench: | [nuxt/require-func-head](./docs/rules/require-func-head.md) | Enforce `head` property in component to be a function. |
