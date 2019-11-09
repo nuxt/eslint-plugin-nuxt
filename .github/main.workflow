@@ -1,27 +1,20 @@
-workflow "Github Actions" {
-  on = "push"
-  resolves = ["Lint", "Test", "Audit"]
-}
-
-action "Install" {
-  uses = "nuxt/actions-yarn@master"
-  args = "install"
-}
-
-action "Lint" {
-  needs = "Install"
-  uses = "nuxt/actions-yarn@master"
-  args = "lint"
-}
-
-action "Test" {
-  needs = "Install"
-  uses = "nuxt/actions-yarn@master"
-  args = "test"
-}
-
-action "Audit" {
-  needs = "Install"
-  uses = "nuxt/actions-yarn@master"
-  args = "audit"
-}
+name: Github ActionCI
+on:
+  pull_request
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: nuxt/actions-yarn@master
+        with:
+          cmd: install
+      - uses: nuxt/actions-yarn@master
+        with:
+          cmd: test
+      - uses: nuxt/actions-yarn@master
+        with:
+          cmd: audit
