@@ -50,7 +50,7 @@
     "standard-version": "^7.0.0"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^6.0.0",
+    "eslint-plugin-vue": "^6.0.1",
     "vue-eslint-parser": "^7.0.0"
   }
 }
