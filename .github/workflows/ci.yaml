@@ -1,16 +1,41 @@
-name: Github Action CI
-on: [push, pull_request]
+name: ci
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  ci:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        node: [10, 12]
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: nuxt/actions-yarn@master
+      - uses: actions/setup-node@v1
         with:
-          cmd: install
-      - uses: nuxt/actions-yarn@master
+          node-version: ${{ matrix.node }}
+
+      - name: checkout
+        uses: actions/checkout@master
+
+      - name: cache node_modules
+        uses: actions/cache@v1
         with:
-          cmd: test
-      - uses: nuxt/actions-yarn@master
-        with:
-          cmd: audit
+          path: node_modules
+          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+
+      - name: install
+        run: yarn --check-files --frozen-lockfile --non-interactive
+
+      - name: lint
+        run: yarn lint
+
+      - name: test
+        run: yarn test
