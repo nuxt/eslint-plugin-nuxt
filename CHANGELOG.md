@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.5.0...v0.5.1) (2020-02-09)
+
+
+### Features
+
+* **rule:** add require-func-head in recommended ([#62](https://github.com/nuxt/eslint-plugin-nuxt/issues/62)) ([7d0926f](https://github.com/nuxt/eslint-plugin-nuxt/commit/7d0926f4a73bbd3c91496f7ab8e0fc232f38d423))
+
+
+### Bug Fixes
+
+* correct category for no-timing-in-fetch-data ([bbf6ce9](https://github.com/nuxt/eslint-plugin-nuxt/commit/bbf6ce985b0e40c1c9450fd3b3a7188d3a7a214a))
+
 ## [0.5.0](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.4.3...v0.5.0) (2019-11-09)
 
 
