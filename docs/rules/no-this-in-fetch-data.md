@@ -8,6 +8,8 @@
 
 This rule is for preventing using `this` in `asyncData/fetch`
 
+> **NOTE**: `No this in fetch` is only for Nuxt.js < 2.12.0, Nuxt.js v2.12 has introduced new `fetch` API which supports `this`.
+
 Examples of **incorrect** code for this rule:
 
 ```js
