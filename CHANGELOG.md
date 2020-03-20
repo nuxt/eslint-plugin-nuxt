@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.2](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.5.1...v0.5.2) (2020-03-20)
+
+
+### Bug Fixes
+
+* enable no-this-in-fetch only for nuxt < 2.12 ([66fc2e0](https://github.com/nuxt/eslint-plugin-nuxt/commit/66fc2e0f517865b3bf160eb096a5c81f788b33af))
+
 ### [0.5.1](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.5.0...v0.5.1) (2020-02-09)
 
 
