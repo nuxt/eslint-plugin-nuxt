@@ -2,8 +2,6 @@
 
 > enforce `head` property in component to be a function.
 
-- :gear: This rule is included in `"plugin:nuxt/recommended"`.
-
 ## Rule Details
 
 This rule is enforcing `head` property in component to be a function.
