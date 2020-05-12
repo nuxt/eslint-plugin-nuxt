@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.5.2...v1.0.0) (2020-05-12)
+
+
+### Features
+
+* upgrade eslint to v7 ([c57a3de](https://github.com/nuxt/eslint-plugin-nuxt/commit/c57a3de0aaa71d33b09a1710d6b5c7ce478f71e3))
+
+
+### Bug Fixes
+
+* nuxt/require-func-head doesnt work with factories ([5480fd0](https://github.com/nuxt/eslint-plugin-nuxt/commit/5480fd0d8eda0d6a5794548d60d3d84db8cbf86e)), closes [#94](https://github.com/nuxt/eslint-plugin-nuxt/issues/94)
+* remove require-func-head from recommend ([580ffa2](https://github.com/nuxt/eslint-plugin-nuxt/commit/580ffa26fa533c6e2cef2330965609ca879b118d)), closes [#93](https://github.com/nuxt/eslint-plugin-nuxt/issues/93)
+
 ### [0.5.2](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.5.1...v0.5.2) (2020-03-20)
 
 
