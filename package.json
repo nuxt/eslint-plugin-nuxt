@@ -38,20 +38,20 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^7.0.0",
+    "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
-    "jest": "^26.0.1",
-    "lint-staged": "^10.2.2",
-    "standard-version": "^8.0.0"
+    "jest": "^26.1.0",
+    "lint-staged": "^10.2.11",
+    "standard-version": "^8.0.1"
   },
   "dependencies": {
     "eslint-plugin-vue": "^6.2.2",
     "semver": "^7.3.2",
-    "vue-eslint-parser": "^7.0.0"
+    "vue-eslint-parser": "^7.1.0"
   }
 }
