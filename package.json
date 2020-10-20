@@ -47,7 +47,7 @@
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
-    "standard-version": "^8.0.2"
+    "standard-version": "^9.0.0"
   },
   "dependencies": {
     "eslint-plugin-vue": "^6.2.2",
