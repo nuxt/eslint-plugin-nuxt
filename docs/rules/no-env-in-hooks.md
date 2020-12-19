@@ -1,12 +1,12 @@
 # nuxt/no-env-in-hooks
 
-> Disallow `process.server` and `process.client` in the following lifecycle hooks: `beforeMount`, `mounted`, `beforeUpdate`, `updated`, `activated`, `deactivated`, `beforeDestroy` and `destroyed`.
+> Disallow `process.server`, `process.client` and `process.browser` in the following lifecycle hooks: `beforeMount`, `mounted`, `beforeUpdate`, `updated`, `activated`, `deactivated`, `beforeDestroy` and `destroyed`.
 
 - :gear: This rule is included in `"plugin:nuxt/base"`.
 
 ## Rule Details
 
-This rule is for preventing using `process.server/process.client` in client only Vue lifecycle hooks since they're only executed in client side.
+This rule is for preventing using `process.server`/`process.client`/`process.browser` in client only Vue lifecycle hooks since they're only executed in client side.
 
 Examples of **incorrect** code for this rule:
 
@@ -20,6 +20,11 @@ export default {
   },
   beforeMount() {
     if (process.client) {
+      const foo = 'bar'
+    }
+  },
+  beforeDestroy() {
+    if (process.browser) {
       const foo = 'bar'
     }
   }
@@ -37,6 +42,9 @@ export default {
     const foo = 'bar'
   },
   beforeMount() {
+    const foo = 'bar'
+  },
+  beforeDestroy() {
     const foo = 'bar'
   }
 }
