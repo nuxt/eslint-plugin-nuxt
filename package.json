@@ -54,7 +54,7 @@
     "standard-version": "^9.1.1"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^7.7.0",
+    "eslint-plugin-vue": "^7.8.0",
     "semver": "^7.3.4",
     "vue-eslint-parser": "^7.6.0"
   }
