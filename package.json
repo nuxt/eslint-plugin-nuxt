@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-nuxt",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "ESLint plugin for Nuxt.js",
   "author": "Clark Du <clarkdo@gmail.com>",
   "license": "MIT",
