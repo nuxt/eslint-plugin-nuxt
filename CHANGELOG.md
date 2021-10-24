@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/nuxt/eslint-plugin-nuxt/compare/v2.0.0...v2.0.2) (2021-10-24)
+
+
+### Bug Fixes
+
+* disallow `process.browser` in `no-env-in-hooks` ([#127](https://github.com/nuxt/eslint-plugin-nuxt/issues/127)) ([07299c0](https://github.com/nuxt/eslint-plugin-nuxt/commit/07299c0ef16dc8efeef19bb2a29df9381aa99e77))
+
+### [2.0.1](https://github.com/nuxt/eslint-plugin-nuxt/compare/v2.0.0...v2.0.1) (2021-10-24)
+
+
+### Bug Fixes
+
+* disallow `process.browser` in `no-env-in-hooks` ([#127](https://github.com/nuxt/eslint-plugin-nuxt/issues/127)) ([07299c0](https://github.com/nuxt/eslint-plugin-nuxt/commit/07299c0ef16dc8efeef19bb2a29df9381aa99e77))
+
 ## [2.0.0](https://github.com/nuxt/eslint-plugin-nuxt/compare/v1.0.0...v2.0.0) (2020-11-14)
 
 ## [1.0.0](https://github.com/nuxt/eslint-plugin-nuxt/compare/v0.5.2...v1.0.0) (2020-05-12)
