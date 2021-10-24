@@ -103,6 +103,7 @@ Include all the below rules, as well as all priority rules in above categories, 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 |  | [nuxt/no-timing-in-fetch-data](./docs/rules/no-timing-in-fetch-data.md) | Disallow `setTimeout/setInterval` in `asyncData/fetch` |
+|  | [nuxt/no-img-element](./docs/rules/no-img-element.md) | Prohibit usage of HTML `<img>` element |
 
 ### Other Rules
 
