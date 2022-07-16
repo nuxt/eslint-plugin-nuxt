@@ -109,3 +109,4 @@ Include all the below rules, as well as all priority rules in above categories, 
 |    | Rule ID | Description |
 |:---|:--------|:------------|
 |  | [nuxt/require-func-head](./docs/rules/require-func-head.md) | Enforce `head` property in component to be a function. |
+|  | [nuxt/no-unresolved-middleware](./docs/rules/no-unresolved-middleware.md) | Checks for the presence of Nuxt.js middleware. |
