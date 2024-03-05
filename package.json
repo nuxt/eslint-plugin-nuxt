@@ -54,5 +54,5 @@
     "semver": "^7.3.7",
     "vue-eslint-parser": "^9.0.3"
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@4.1.1"
 }
