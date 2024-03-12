@@ -37,22 +37,22 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.23.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.5",
-    "eslint-plugin-promise": "^6.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
-    "husky": "^8.0.1",
-    "jest": "^29.0.1",
-    "lint-staged": "^13.0.3",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "lint-staged": "^13.3.0",
     "pinst": "^3.0.0",
     "standard-version": "^9.3.2"
   },
   "dependencies": {
-    "eslint-plugin-vue": "^9.4.0",
-    "semver": "^7.3.7",
-    "vue-eslint-parser": "^9.0.3"
+    "eslint-plugin-vue": "^9.23.0",
+    "semver": "^7.6.0",
+    "vue-eslint-parser": "^9.4.2"
   },
-  "packageManager": "yarn@3.2.3"
+  "packageManager": "yarn@3.8.1"
 }
