@@ -1,3 +1,9 @@
+> [!NOTE]
+> `eslint-plugin-nuxt` was designed for Nuxt 2 and will not receive active development. Since many rules are no longer relevant in Nuxt 3, we created a new nuxt plugin [`@nuxt/eslint-plugin`](https://eslint.nuxt.com/packages/plugin) for Nuxt 3 under the [nuxt/eslint](https://github.com/nuxt/eslint) repository.
+
+----
+
+
 # eslint-plugin-nuxt
 
 [![Standard JS][standard-js-src]][standard-js-href]
